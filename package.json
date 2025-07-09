@@ -1,0 +1,31 @@
+{
+  "name": "hexlet",
+  "version": "1.0.0",
+  "description": "My first project on Hexlet",
+  "keywords": [
+    "node",
+    "hello",
+    "world"
+  ],
+  "homepage": "https://github.com/la-moche/hexlet-js#readme",
+  "bugs": {
+    "url": "https://github.com/la-moche/hexlet-js/issues"
+  },
+  "license": "ISC",
+  "author": "Alexander Smirnov <priamus.rex@gmail.com>",
+  "files": [
+    "index.js",
+    "lib/",
+    "README.md"
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/la-moche/hexlet-js.git"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module"
+}
