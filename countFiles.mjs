@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 
-const directoryPath = 'node_modules/lodash/'; // Укажите путь к вашей папке
+const directoryPath = 'node_modules/'; // Укажите путь к вашей папке
 
 function countFiles(dir) {
   let fileCount = 0;
@@ -11,7 +11,7 @@ function countFiles(dir) {
       return console.error('Ошибка при чтении директории:', err);
     }
 
-    files.forEach(file => {
+    files.forEach((file) => {
       const filePath = path.join(dir, file);
       if (fs.statSync(filePath).isFile()) {
         fileCount++;

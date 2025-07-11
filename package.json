@@ -28,7 +28,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "glob": "^11.0.3",
+    "inflight": "^1.0.6",
     "lodash": "^4.17.21"
   },
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "jest": "^30.0.4",
+    "prettier": "^3.6.2"
+  }
 }
