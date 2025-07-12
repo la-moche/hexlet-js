@@ -18,7 +18,10 @@
     "lib/",
     "README.md"
   ],
-  "main": "index.js",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/la-moche/hexlet-js.git"
