@@ -1,4 +1,4 @@
-import getBirthYear from 'hexlet';
+import getBirthYear from 'hexlet'
 
 console.log('Сколько вам лет?')
 const age = 18 // Каким-то способом получаем возраст пользователя, через терминал. Сейчас не важно как

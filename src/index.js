@@ -1,5 +1,5 @@
 export default (age) => {
-  const birthYear = 2005 // Подсчитываем результат
+  const birthYear = new Date().getFullYear() - age // Подсчитываем год рождения
 
   return birthYear
 }
